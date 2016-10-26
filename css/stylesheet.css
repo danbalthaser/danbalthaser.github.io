@@ -1,0 +1,194 @@
+﻿body 
+{
+    font-family: Calibri Light, Calibri, Arial, Helvetica, sans-serif;
+    letter-spacing: -0.5px;
+    background-color: #F3F3F3;
+    margin: 0px;
+    background-image: URL("../images/MountWashingtonHike.jpg");
+    background-size: cover;
+    font-size: 1em;
+}
+
+ul
+{
+    margin: auto;
+}
+
+#page
+{
+    margin: 2em auto;
+    padding: 3em 3em 3em 0em;
+    background-color: white;    
+    display: block;
+    width: 40em;
+    overflow: auto;
+}
+
+#initials
+{
+    font-size: 2.5em;
+    background-color: #00BFFF;
+    color: #FFF;
+    margin: -4px 4px -4px 0px;
+    padding: 0px 4px;
+    float: left;
+}
+
+#main-content
+{
+    float: right;
+    width: 36em;
+}
+
+#header span
+{
+    display: inline-block;
+}
+
+#header-left
+{
+    float: left;
+    width: 60%;
+}
+
+#header-right
+{
+    float: right;
+    width: 35%;
+}
+
+#name
+{
+    font-size: 2em;
+}
+
+#addresses
+{
+    text-align: right;
+    font-size: 0.85em;
+    letter-spacing: 1px;
+}
+
+.address
+{
+    color: grey;
+}
+
+#email a
+{
+    text-decoration: none;
+    color: grey;
+}
+
+#email a:hover
+{
+    text-decoration: none;
+    color: black;
+}
+
+#school
+{
+    text-align: center;
+    display: block;
+    padding: 1em 0em 0em 0em;
+    clear: both;
+}
+
+.section
+{
+    display: block;
+    clear: both;
+    padding-top: 1em;
+}
+
+.section > div > ul
+{
+    display: inline-block;
+}
+
+.section > div > span
+{
+    display: block;
+}
+
+.section-title
+{
+    display: block;
+    text-align: center;
+    margin: auto;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
+.title-cap
+{
+    font-size: 1.25em;
+}
+
+.left-list
+{
+    float: left;
+    width: 42%;
+    margin: auto;
+}
+
+.right-list
+{
+    float: right;
+    width: 42%;
+    margin: auto;
+}
+
+.job-header-left
+{
+    float: left;
+    width: 55%;
+}
+
+.job-header-right
+{
+    float: right;
+    width: 40%;
+    text-align: right;
+}
+
+.job-title
+{
+    font-size: 1.25em;
+    color: #00BFFF;
+}
+
+.company-name
+{
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+.employment-date
+{
+    font-size: 1.25em;
+}
+
+.company-location
+{
+    font-size: 0.9em;
+}
+
+#footer
+{
+    text-align: center;
+    padding-top: 1em;
+}
+
+#download-resume a
+{
+    text-decoration: none;
+    color: grey;
+}
+
+#download-resume a:hover
+{
+    text-decoration: none;
+    color: black;
+}
