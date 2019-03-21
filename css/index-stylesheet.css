@@ -1,0 +1,65 @@
+body
+{
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	flex-wrap: wrap;
+}
+#leftSection
+{
+	background: url('../images/headshot.jpg') no-repeat center center; 
+	background-size: cover;
+	width: 50%; 
+	height: 100%; 
+	display: inline-block;
+	order: 0;
+	flex-grow: 1;
+	min-width: 500px;
+}
+#rightSection
+{
+	width: 50%; 
+	height: 100%; 
+	display: inline-block;
+	vertical-align: top;
+	order: 1;
+	flex-grow: 1;
+	min-width: 500px;
+}
+.nameArea
+{
+	text-align: center;
+	vertical-align: middle;
+	margin: 0;
+	position: relative;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.name
+{
+	color: #333;
+	font-size: 4.5em;
+	font-weight: 700;
+}
+.subtext
+{
+	color: #999;
+	font-weight: 400;
+}
+.icon
+{
+	font-size: 1.4em;
+	padding: 0.3em;
+	border-radius: 50%;
+	height: 1em;
+	width: 1em;
+	background-color: #333;
+	color: #fff;
+	display: inline-block;
+}
+.icon:hover
+{
+	background-color: #666;
+	transition: background-color 0.2s;
+}
