@@ -1,4 +1,4 @@
-﻿body 
+body 
 {
     font-family: Calibri Light, Calibri, Arial, Helvetica, sans-serif;
     letter-spacing: -0.5px;
@@ -20,7 +20,7 @@ ul
     padding: 3em 3em 3em 0em;
     background-color: white;    
     display: block;
-    width: 40em;
+    max-width: 40em;
     overflow: auto;
 }
 
@@ -28,6 +28,7 @@ ul
 {
     float: right;
     width: 36em;
+    max-width: 100%;
 }
 
 #header span
@@ -102,25 +103,12 @@ ul
     text-transform: uppercase;
     font-weight: normal;
     font-size: 0.8em;
+    color: #00BFFF;
 }
 
 .title-cap
 {
     font-size: 1.25em;
-}
-
-.left-list
-{
-    float: left;
-    width: 42%;
-    margin: auto;
-}
-
-.right-list
-{
-    float: right;
-    width: 42%;
-    margin: auto;
 }
 
 .job-header-left
@@ -139,11 +127,6 @@ ul
 .job-title
 {
     font-size: 1.25em;
-    color: #00BFFF;
-}
-
-.section-title
-{
     color: #00BFFF;
 }
 
@@ -243,4 +226,52 @@ a:hover
 {
     text-decoration: none;
     color: black;
+}
+
+/* Narrow screens: drop the fixed page width and stack two-column headers */
+@media (max-width: 46em)
+{
+    #page
+    {
+        margin: 0;
+        padding: 1.5em 1em;
+    }
+
+    #main-content
+    {
+        float: none;
+        width: auto;
+    }
+
+    #header-left,
+    #header-right,
+    .job-header-left,
+    .job-header-right
+    {
+        float: none;
+        width: 100%;
+        text-align: left;
+    }
+
+    #addresses
+    {
+        text-align: left;
+        padding-top: 0.5em;
+    }
+
+    .competency-grid
+    {
+        flex-direction: column;
+    }
+
+    .competency-column
+    {
+        width: 100%;
+        padding-bottom: 0.5em;
+    }
+
+    #summary p
+    {
+        text-align: left;
+    }
 }

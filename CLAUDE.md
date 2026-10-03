@@ -27,7 +27,8 @@ This is a simple static HTML site with no build process or server-side rendering
 The landing page uses a two-column layout with intentional formatting (left and right sections without whitespace between them to prevent wrapping). Key elements:
 - Left section: Empty div (used as visual space)
 - Right section: Name area with social media and external links
-- Uses Font Awesome icons for social links and FontRoboto for typography
+- Uses Font Awesome 7 icons (jsDelivr, pinned version with SRI hash) for social links and Google Fonts Roboto (400 and 700) for typography
+- Below 500px wide, a media query stacks both sections full width
 
 ## Development
 
@@ -52,3 +53,5 @@ Since this is a static site with no build process:
 - **Format preservation**: The HTML in `index.htm` has deliberate formatting (no whitespace between left and right divs) to prevent layout issues
 - **Hosted via GitHub Pages**: Site automatically deploys from the `master` branch
 - **Domain**: CNAME file points to `danbalthaser.com`
+- **Jekyll**: GitHub Pages runs Jekyll; `_config.yml` excludes `CLAUDE.md` from the published site
+- **Mobile**: `resume.htm` has a viewport meta tag and a `max-width: 46em` media query that stacks headers and competencies; keep desktop layout unchanged when editing
