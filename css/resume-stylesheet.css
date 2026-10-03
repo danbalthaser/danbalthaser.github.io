@@ -38,13 +38,13 @@ ul
 #header-left
 {
     float: left;
-    width: 60%;
+    width: 50%;
 }
 
 #header-right
 {
     float: right;
-    width: 35%;
+    width: 48%;
 }
 
 #name
@@ -161,6 +161,69 @@ ul
 .company-location
 {
     font-size: 0.9em;
+}
+
+#addresses .address
+{
+    display: block;
+}
+
+#summary p
+{
+    margin: 0.5em 0em 0em 0em;
+    text-align: justify;
+}
+
+.competency-grid
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.5em;
+    font-size: 0.9em;
+}
+
+.competency-column
+{
+    width: 32%;
+}
+
+.competency-column ul
+{
+    padding-left: 1.2em;
+}
+
+.competency-heading
+{
+    display: block;
+    font-weight: bold;
+    padding-bottom: 0.25em;
+}
+
+#acquisitions ul
+{
+    display: block;
+    padding-top: 0.5em;
+}
+
+#acquisitions li
+{
+    padding-bottom: 0.3em;
+}
+
+#experience
+{
+    padding-top: 1.5em;
+}
+
+#education #school
+{
+    padding-top: 0.5em;
+}
+
+#interest-line
+{
+    text-align: center;
+    padding-top: 0.5em;
 }
 
 #footer
