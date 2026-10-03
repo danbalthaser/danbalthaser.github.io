@@ -69,3 +69,17 @@ body
 	background-color: #666;
 	transition: background-color 0.2s;
 }
+/* Phones narrower than the 500px column minimum: stack full width, no sideways scroll */
+@media (max-width: 500px)
+{
+	#leftSection,
+	#rightSection
+	{
+		min-width: 100%;
+		width: 100%;
+	}
+	.name
+	{
+		font-size: 3em;
+	}
+}
